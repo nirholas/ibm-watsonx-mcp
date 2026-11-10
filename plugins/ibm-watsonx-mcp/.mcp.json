@@ -7,8 +7,8 @@
         "@three-ws/ibm-watsonx-mcp"
       ],
       "env": {
-        "WATSONX_API_KEY": "${WATSONX_API_KEY}",
-        "WATSONX_PROJECT_ID": "${WATSONX_PROJECT_ID}"
+        "WATSONX_API_KEY": "${WATSONX_API_KEY:-}",
+        "WATSONX_PROJECT_ID": "${WATSONX_PROJECT_ID:-}"
       }
     }
   }
